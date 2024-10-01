@@ -39,15 +39,28 @@
     <li>Knife</li>
   </ul>
   -->
-
   <h2>Conversion</h2>
 
-    <!-- Add conversion form.. -->
+	<form>
+  	
+  	<input type="text" id="tablespoons" name="tablespoons" value="tablespoons">
+		<span>=</span>
+		<input type="text" id="cups" name="cups" value="cups">			</form>
 
   <h2>Rate this Recipe</h2>
 
-    <!-- Add rating radio.. -->
-  
+	<form>
+    <fieldset>
+    <legend>What skill level is this recipe?</legend>
+		<input type="radio" id="easy" name="rating" value="easy">
+  	<label for="easy">Easy</label>
+  	<input type="radio" id="intermediate" name="rating" value="intermediate">
+ 		<label for="intermediate">Intermediate</label>
+  	<input type="radio" id="hard" name="rating" value="hard">
+  	<label for="hard">Hard</label>
+	  </fieldset>
+  </form>
+
   <h2>Directions</h2>
 
   <ol>
@@ -70,7 +83,7 @@
 
   <p>
     <a href="https://www.youtube.com/watch?v=TrYJmhglZRc">More about ducks</a>  
-    <span style="float:right;">This page created as academic activity only.</span>
+    <span style="float:right;">This page created as an academic activity only.</span>
   </p>
 
 </body>
